@@ -1,0 +1,15 @@
+// vendors
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+// common
+@import "./common/reset";
+@import "./common/variables";
+@import "./common/layout";
+@import "./common/typography";
+@import "./common/helpers";
+
+// components
+@import "./components/hero";
+@import "./components/main";
+@import "./components/navbar";
+// partials

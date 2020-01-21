@@ -1,0 +1,12 @@
+#hero {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    
+    .title{
+        padding: 10px 50px;
+    }
+}

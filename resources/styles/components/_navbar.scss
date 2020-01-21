@@ -1,0 +1,17 @@
+.navbar {
+       background: rgba(#2E2E3A, .5);
+        padding: 15px 45px;
+        font-family: $f-primary;
+         font-size: 1.25rem;
+        .navbar-brand {
+            color: $c-white;
+        }
+
+        .navbar-nav {
+            .nav-item {
+                .nav-link {
+                    color: $c-white;
+                }
+            }
+        }
+    }
