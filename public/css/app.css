@@ -10514,11 +10514,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #main {
-  background-color: #141414;
+  background: #303030;
+  background: -webkit-gradient(linear, left top, left bottom, from(#303030), color-stop(32%, #202020), color-stop(69%, #101010), to(black));
+  background: linear-gradient(180deg, #303030 0%, #202020 32%, #101010 69%, black 100%);
   font-family: "Poppins";
 }
 #main .about_me {
-  margin: 120px 100px 15px 100px;
+  margin: 120px 100px 120px 100px;
 }
 
 .navbar {

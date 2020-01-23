@@ -1,8 +1,9 @@
 #main {
-    background-color: #141414;
+    background: rgb(48,48,48);
+background: linear-gradient(180deg, rgba(48,48,48,1) 0%, rgba(32,32,32,1) 32%, rgba(16,16,16,1) 69%, rgba(0,0,0,1) 100%);
     font-family: $f-secondary;
 
-    .about_me{
-        margin: 120px 100px 15px 100px;
-    }  
+    .about_me {
+        margin: 120px 100px 120px 100px;
+    }
 }
