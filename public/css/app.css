@@ -10476,6 +10476,7 @@ body {
   background: #FAFAFA;
   font-family: "Poppins";
   font-size: 16px;
+  color: #ffffff;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -10531,4 +10532,36 @@ h1, h2, h3, h4, h5, h6 {
 }
 .navbar .navbar-nav .nav-item .nav-link {
   color: #ffffff;
+}
+
+#projects {
+  background-color: #000000;
+}
+#projects .projects-title {
+  text-align: center;
+  padding-top: 50px;
+}
+#projects .inner {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+  align-content: center;
+  padding: 20px;
+}
+#projects .tile-icon {
+  width: 25%;
+  height: 100px;
+  position: relative;
+}
+#projects .tile-icon:before {
+  content: "";
+  background: black;
+  opacity: 0.22;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 100px;
 }

@@ -1,4 +1,33 @@
 #projects{
+    background-color: $c-black;
     
-   
+    .projects-title{
+        text-align: center;
+        padding-top: 50px;
+    }
+    .inner {
+        display: flex;
+        justify-content: center;
+        align-content: center; 
+        padding: 20px;
+    }
+
+    .tile-icon {
+        width: 25%;
+        height: 100px;
+        position: relative;
+
+        &:before {
+            content: "";
+            background: black;
+            opacity: 0.22;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            border-radius: 100px;
+        }
+    }
+
 }
