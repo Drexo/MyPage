@@ -15,18 +15,13 @@
     .tile-icon {
         width: 25%;
         height: 100px;
-        position: relative;
-
-        &:before {
-            content: "";
-            background: black;
-            opacity: 0.22;
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            border-radius: 100px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        opacity: .3;
+        transition: 2s;
+        &:hover{
+            opacity: .9;
         }
     }
 
