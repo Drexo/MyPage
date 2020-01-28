@@ -17922,8 +17922,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\wiida\Desktop\Mypg\MyPage\resources\scripts\app.js */"./resources/scripts/app.js");
-module.exports = __webpack_require__(/*! C:\Users\wiida\Desktop\Mypg\MyPage\resources\styles\app.scss */"./resources/styles/app.scss");
+__webpack_require__(/*! C:\Users\Drexo\Desktop\Landing-page\resources\scripts\app.js */"./resources/scripts/app.js");
+module.exports = __webpack_require__(/*! C:\Users\Drexo\Desktop\Landing-page\resources\styles\app.scss */"./resources/styles/app.scss");
 
 
 /***/ })
