@@ -17901,6 +17901,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var bootstrap__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(bootstrap__WEBPACK_IMPORTED_MODULE_0__);
 // bootstrap
 
+var nav = document.querySelector("#navbar-hidd");
+
+var addStyle = function addStyle(e) {
+  if (e.offsetTop > 10) {
+    nav.classList.remove("d-none");
+  }
+};
+
+window.addEventListener("scroll", addStyle);
 
 /***/ }),
 
@@ -17922,8 +17931,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\Drexo\Desktop\Landing-page\resources\scripts\app.js */"./resources/scripts/app.js");
-module.exports = __webpack_require__(/*! C:\Users\Drexo\Desktop\Landing-page\resources\styles\app.scss */"./resources/styles/app.scss");
+__webpack_require__(/*! C:\Users\Drexo\Desktop\Portfolio\MyPage\resources\scripts\app.js */"./resources/scripts/app.js");
+module.exports = __webpack_require__(/*! C:\Users\Drexo\Desktop\Portfolio\MyPage\resources\styles\app.scss */"./resources/styles/app.scss");
 
 
 /***/ })
