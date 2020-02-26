@@ -1,12 +1,11 @@
 // bootstrap
 import 'bootstrap';
 
-const nav = document.querySelector("#navbar-hidd");
+const tech = document.querySelector("tile-icon");
 
 const addStyle = e => {
-    if(e.offsetTop > 10){
-        nav.classList.remove("d-none")
-    }
+    console.log(e)
 }
 
-window.addEventListener("scroll", addStyle);
+
+tech.addEventListener("onmouseover", addStyle);
