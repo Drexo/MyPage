@@ -17901,15 +17901,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var bootstrap__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(bootstrap__WEBPACK_IMPORTED_MODULE_0__);
 // bootstrap
 
-var nav = document.querySelector("#navbar-hidd");
-
-var addStyle = function addStyle(e) {
-  if (e.offsetTop > 10) {
-    nav.classList.remove("d-none");
-  }
-};
-
-window.addEventListener("scroll", addStyle);
 
 /***/ }),
 
