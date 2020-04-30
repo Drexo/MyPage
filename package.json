@@ -31,7 +31,7 @@
     "baguettebox.js": "^1.11.0",
     "blazy": "^1.8.2",
     "bootstrap": "^4.4.1",
-    "jquery": "^3.4.0",
+    "jquery": "^3.5.0",
     "jquery-parallax.js": "^1.5.0",
     "owl.carousel": "^2.3.4",
     "popper.js": "^1.14.7"
