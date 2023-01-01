@@ -21,9 +21,9 @@
   },
   "homepage": "https://gitlab.com/kuando/landing-page",
   "devDependencies": {
-    "laravel-mix": "^4.0.15",
+    "laravel-mix": "^6.0.49",
     "sass": "^1.16.1",
-    "sass-loader": "^7.1.0",
+    "sass-loader": "^13.2.0",
     "vue-template-compiler": "^2.5.22"
   },
   "dependencies": {
